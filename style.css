@@ -402,7 +402,7 @@ section.pap{
   background-image: url(./imagenes/mona.jpg);
   text-align: center;
   background-size: cover;
-  min-height: 100vh;
+  height:100vh;
 
 }
 
@@ -420,6 +420,7 @@ div.galeria {
 margin: 20px;
   box-shadow: 0 4px 8px rgb(24, 74, 83), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 350px;
+  height: 50vh;
   transition: transform 0.3s;
   grid-template-columns: repeat(2, 1fr);
 }
